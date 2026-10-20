@@ -1,0 +1,32 @@
+BlaulichtBuddy Kartendaten Wien
+
+map.pmtiles (Vektorkacheln Wien)
+  © OpenStreetMap contributors. https://www.openstreetmap.org/copyright
+  Source: VersaTiles osm.20260608.versatiles
+  (https://download.versatiles.org/osm.20260608.versatiles), OSM data
+  2026-06-07, Shortbread 1.0 schema (CC0).
+  Processing: cut to bbox 16.154,48.099,16.605,48.342, zoom 0-14,
+  recompressed from Brotli to gzip (versatiles 4.14.0).
+  Licence: Open Database License (ODbL) 1.0, see LICENSE,
+  https://opendatacommons.org/licenses/odbl/1-0/
+
+pois.sqlite (Suchdaten zu Orten und Einrichtungen in Wien, SQLite/FTS5)
+  © OpenStreetMap contributors. https://www.openstreetmap.org/copyright
+  Source: Geofabrik austria-260922.osm.pbf
+  (https://download.geofabrik.de/europe/austria-260922.osm.pbf),
+  SHA-256 85c6ad83717f92897c693e3b112781621e9dfb8b2225abada870bdcb536d47e4.
+  Processing: named places, stops, hospitals and other facilities in Vienna
+  extracted with osmium (map_sources/build_vienna_search.py in the
+  BlaulichtBuddy repository).
+  Licence: Open Database License (ODbL) 1.0, see LICENSE.
+
+addresses.sqlite (separate archive, not part of the ODbL data)
+  Datenquelle: Stadt Wien – data.wien.gv.at
+  Dataset: Adressen Standorte Wien / ogdwien:ADRESSENOGD,
+  https://www.data.gv.at/katalog/dataset/1d5c2411-9719-4c8f-b99d-57a5f4a4ae41
+  Retrieved 2026-09-26, normalised and indexed for offline search.
+  Licence: Creative Commons Attribution 4.0 International (CC BY 4.0),
+  https://creativecommons.org/licenses/by/4.0/
+  The addresses contain no OpenStreetMap data and are stored without keys or
+  joins to the OSM files (collective database); they are not covered by the
+  ODbL.
